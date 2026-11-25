@@ -1,0 +1,261 @@
+[
+  {
+    "name": "assay",
+    "spec": {
+      "lsl": 95,
+      "usl": 105,
+      "unit": "%",
+      "target": null
+    },
+    "descriptive": {
+      "n": 40,
+      "mean": 99.8475,
+      "sd": 0.7428246505996294,
+      "rsd_pct": 0.7439591883618814,
+      "min": 97.9,
+      "max": 101.4,
+      "median": 99.9
+    },
+    "limits": {
+      "center": 99.8475,
+      "ucl": 102.10472858701581,
+      "lcl": 97.59027141298418,
+      "sigma_within": 0.7524095290052734,
+      "mr_bar": 0.8487179487179483,
+      "mr_ucl": 2.7727615384615367
+    },
+    "capability": {
+      "cp": 2.21510574018127,
+      "cpk": 2.14754501510574,
+      "pp": 2.2436878815495493,
+      "ppk": 2.1752554011622864
+    },
+    "oos_batches": [],
+    "trend_violations": [],
+    "chart": "charts/assay_ichart.png",
+    "verdict": "In control"
+  },
+  {
+    "name": "dissolution_30min",
+    "spec": {
+      "lsl": 80,
+      "usl": null,
+      "unit": "% (Q)",
+      "target": null
+    },
+    "descriptive": {
+      "n": 40,
+      "mean": 90.675,
+      "sd": 2.8319378162085047,
+      "rsd_pct": 3.123173770287847,
+      "min": 78.0,
+      "max": 95.0,
+      "median": 91.0
+    },
+    "limits": {
+      "center": 90.675,
+      "ucl": 98.24455810147299,
+      "lcl": 83.105441898527,
+      "sigma_within": 2.523186033824332,
+      "mr_bar": 2.8461538461538463,
+      "mr_ucl": 9.298384615384615
+    },
+    "capability": {
+      "cp": null,
+      "cpk": 1.4102540540540536,
+      "pp": null,
+      "ppk": 1.2565012243444493
+    },
+    "oos_batches": [
+      "B26028"
+    ],
+    "trend_violations": [
+      {
+        "rule": "Rule 1",
+        "description": "Point beyond 3σ control limit",
+        "batches": [
+          "B26028"
+        ]
+      }
+    ],
+    "chart": "charts/dissolution_30min_ichart.png",
+    "verdict": "OOS results - CAPA required"
+  },
+  {
+    "name": "water_content",
+    "spec": {
+      "lsl": null,
+      "usl": 3.5,
+      "unit": "% w/w",
+      "target": null
+    },
+    "descriptive": {
+      "n": 40,
+      "mean": 2.49325,
+      "sd": 0.24932100099763269,
+      "rsd_pct": 9.999839606843786,
+      "min": 2.07,
+      "max": 2.96,
+      "median": 2.4699999999999998
+    },
+    "limits": {
+      "center": 2.49325,
+      "ucl": 2.7039701309328974,
+      "lcl": 2.282529869067103,
+      "sigma_within": 0.07024004364429899,
+      "mr_bar": 0.07923076923076926,
+      "mr_ucl": 0.25884692307692314
+    },
+    "capability": {
+      "cp": null,
+      "cpk": 4.7776640776698995,
+      "pp": null,
+      "ppk": 1.3459890341789524
+    },
+    "oos_batches": [],
+    "trend_violations": [
+      {
+        "rule": "Rule 1",
+        "description": "Point beyond 3σ control limit",
+        "batches": [
+          "B26001",
+          "B26002",
+          "B26003",
+          "B26004",
+          "B26005",
+          "B26006",
+          "B26007",
+          "B26008",
+          "B26024",
+          "B26031",
+          "B26032",
+          "B26034",
+          "B26035",
+          "B26036",
+          "B26037",
+          "B26038",
+          "B26039",
+          "B26040"
+        ]
+      },
+      {
+        "rule": "Rule 2",
+        "description": "9 consecutive points on the same side of the mean (shift)",
+        "batches": [
+          "B26001",
+          "B26002",
+          "B26003",
+          "B26004",
+          "B26005",
+          "B26006",
+          "B26007",
+          "B26008",
+          "B26009",
+          "B26010",
+          "B26011",
+          "B26012",
+          "B26013",
+          "B26014",
+          "B26015",
+          "B26016",
+          "B26017",
+          "B26018",
+          "B26019",
+          "B26020",
+          "B26021",
+          "B26022",
+          "B26023",
+          "B26024",
+          "B26025",
+          "B26026",
+          "B26027",
+          "B26028",
+          "B26029",
+          "B26030",
+          "B26031",
+          "B26032",
+          "B26033",
+          "B26034",
+          "B26035",
+          "B26036",
+          "B26037",
+          "B26038",
+          "B26039",
+          "B26040"
+        ]
+      },
+      {
+        "rule": "Rule 5",
+        "description": "2 of 3 consecutive points beyond 2σ on the same side",
+        "batches": [
+          "B26001",
+          "B26002",
+          "B26003",
+          "B26004",
+          "B26005",
+          "B26006",
+          "B26007",
+          "B26008",
+          "B26010",
+          "B26011",
+          "B26013",
+          "B26017",
+          "B26019",
+          "B26020",
+          "B26027",
+          "B26028",
+          "B26029",
+          "B26030",
+          "B26031",
+          "B26032",
+          "B26033",
+          "B26034",
+          "B26035",
+          "B26036",
+          "B26037",
+          "B26038",
+          "B26039",
+          "B26040"
+        ]
+      }
+    ],
+    "chart": "charts/water_content_ichart.png",
+    "verdict": "Out-of-trend signals - evaluate"
+  },
+  {
+    "name": "hardness",
+    "spec": {
+      "lsl": 70,
+      "usl": 100,
+      "unit": "N",
+      "target": null
+    },
+    "descriptive": {
+      "n": 40,
+      "mean": 84.2875,
+      "sd": 2.8109846344981353,
+      "rsd_pct": 3.334995858814339,
+      "min": 78.6,
+      "max": 90.0,
+      "median": 84.15
+    },
+    "limits": {
+      "center": 84.2875,
+      "ucl": 94.00517594108018,
+      "lcl": 74.5698240589198,
+      "sigma_within": 3.239225313693397,
+      "mr_bar": 3.6538461538461515,
+      "mr_ucl": 11.937115384615376
+    },
+    "capability": {
+      "cp": 1.5435789473684218,
+      "cpk": 1.4702589473684213,
+      "pp": 1.778736154810994,
+      "ppk": 1.694246187457471
+    },
+    "oos_batches": [],
+    "trend_violations": [],
+    "chart": "charts/hardness_ichart.png",
+    "verdict": "In control"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "assay": {
+    "lsl": 95,
+    "usl": 105,
+    "unit": "%"
+  },
+  "dissolution_30min": {
+    "lsl": 80,
+    "unit": "% (Q)"
+  },
+  "water_content": {
+    "usl": 3.5,
+    "unit": "% w/w"
+  },
+  "hardness": {
+    "lsl": 70,
+    "usl": 100,
+    "unit": "N"
+  }
+}
