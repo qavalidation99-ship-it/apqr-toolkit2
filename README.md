@@ -20,14 +20,14 @@ Every year, QA teams in pharmaceutical companies have to trend every critical qu
 ## Install
 
 ```bash
-pip install git+https://github.com/<your-username>/apqr-toolkit.git
+pip install git+https://github.com/qavalidation99-ship-it/apqr-toolkit2.git
 ```
 
 Or from a local clone:
 
 ```bash
-git clone https://github.com/<your-username>/apqr-toolkit.git
-cd apqr-toolkit
+git clone https://github.com/qavalidation99-ship-it/apqr-toolkit2.git
+cd apqr-toolkit2
 pip install -e .
 ```
 
